@@ -6,8 +6,8 @@ import smtplib
 from email.message import EmailMessage
 
 # Replace with your Gmail and app password
-EMAIL_SENDER = "ej.mutero@gmail.com"
-EMAIL_PASSWORD = "lxuk fqoz dxcp jigl"  # Use App Password (not Gmail login password)
+EMAIL_SENDER = "email@gmail.com"
+EMAIL_PASSWORD = "password"  # Use App Password (not Gmail login password)
 
 class PayslipPDF(FPDF):
     def header(self):
